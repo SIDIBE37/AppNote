@@ -136,14 +136,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: '#7EE4EC',
   },
   label: {
     fontWeight: 'bold',
     marginTop: 10,
   },
   input: {
-    borderWidth: 1,
+    borderWidth: 5,
     borderColor: '#ccc',
     padding: 10,
     borderRadius: 6,
@@ -161,9 +161,10 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
   priorityButtonSelected: {
-    backgroundColor: '#007AFF',
+    backgroundColor: '#f45B69',
   },
   buttonContainer: {
     marginTop: 20,
+    
   },
 });

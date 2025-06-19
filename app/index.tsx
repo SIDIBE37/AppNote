@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: '#7EE4EC',
   },
   heading: {
     fontSize: 24,
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
   addButton: {
     marginTop: 20,
-    backgroundColor: '#007AFF',
+    backgroundColor: '#f45B69',
     paddingVertical: 14,
     borderRadius: 8,
     alignItems: 'center',
