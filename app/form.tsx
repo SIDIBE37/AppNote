@@ -86,7 +86,7 @@ export default function FormScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>Titre</Text>
+      <Text style={styles.label}>Title</Text>
       <TextInput
         style={styles.input}
         value={title}
@@ -103,7 +103,7 @@ export default function FormScreen() {
         multiline
       />
 
-      <Text style={styles.label}>Priorité</Text>
+      <Text style={styles.label}>Priority</Text>
       <View style={styles.priorityContainer}>
         {['faible', 'moyenne', 'élevée'].map((value) => (
           <TouchableOpacity
