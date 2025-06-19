@@ -85,7 +85,7 @@ export default function Dashboard() {
         data={notes}
         keyExtractor={(item) => item.id.toString()}
         renderItem={renderItem}
-        ListEmptyComponent={<Text style={styles.empty}>Aucune note pour le moment.</Text>}
+        ListEmptyComponent={<Text style={styles.empty}>Aucune pour le moment.</Text>}
       />
 
       <TouchableOpacity style={styles.addButton} onPress={() => router.push('/form')}>
